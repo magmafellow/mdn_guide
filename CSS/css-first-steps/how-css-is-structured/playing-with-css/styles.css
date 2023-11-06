@@ -1,0 +1,35 @@
+/* Create your test CSS here */
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap');
+h1 {
+  font-family: 'Edu TAS Beginner', cursive;
+  text-align: center;
+}
+p {
+  text-align: end;
+  margin: 0 auto;
+  padding: 4px 8px;
+}
+
+/* My styles */
+html {
+  background-color: #74992e;
+}
+h1 {
+  font-size: 1.8rem;
+  color: rgb(200, 227, 67);
+}
+p {
+  color:rgb(212, 202, 188);
+  font-family: 'fira code';
+  width: 200px;
+  border: medium double royalblue;
+}
+
+#python {
+  color: yellow;
+  font-weight: bold;
+  text-decoration: underline;
+  background-color:rgba(35, 68, 235, 0.234);
+  padding: 1px 2px;
+  border-radius: 4px;
+}
