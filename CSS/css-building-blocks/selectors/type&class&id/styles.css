@@ -1,0 +1,45 @@
+html {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  background-color: rgb(20, 19, 18);
+  color: rgb(131, 179, 205);
+  font-size: 24px;
+}
+.catched {
+  padding: 2px 4px;
+  color: #83ee11;
+  background-color:#61932b;
+  border: 1px solid #83ee11;
+  border-radius: 2px;
+}
+
+body > * {
+  margin-bottom: 80px;
+}
+
+/* *** Attribute only *** */
+p[sam] {
+  text-decoration: underline;
+}
+p[sam]:first-letter {
+  color: red;
+  font-size: 30px;
+}
+
+/* *** Attribute and Value *** */
+[href="https://mozilla.org"] {
+  color: pink;
+}
+
+/* *** Attr and Value (~) *** */
+div[class~="special"] {
+  background-color: rgba(57, 75, 178, 0.438);
+}
+
+/* *** Attr and value (|) *** */
+div[lang|="zh"] {
+  color: green;
+  text-decoration: underline;
+  border: 1px solid white;
+  border-radius: 12px;
+  padding: 7px 4px;
+}
