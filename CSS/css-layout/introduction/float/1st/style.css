@@ -1,0 +1,33 @@
+html {
+    background-color: #333;
+    color: lightcyan;
+}
+
+.container {
+    padding: 40px;
+    border: 1px solid gray;
+}
+
+h2 {
+    font-family: sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+
+p {
+    font-size: 1.8em;
+}
+
+.box {
+    background-color: lightsalmon;
+    font-size: 3em;
+    color: #111;
+    width: 300px;
+    padding: 1.5em;
+    border-radius: 16px;
+    margin-left: 40px;
+
+    float: right;
+}
+
+

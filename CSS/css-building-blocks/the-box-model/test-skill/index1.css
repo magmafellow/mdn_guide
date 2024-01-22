@@ -1,0 +1,18 @@
+.container {
+    border: 3px solid green;
+    background-color: rgba(0, 128, 0, 0.098);
+    height: 300px;
+    margin: 40px;
+    padding: 40px;
+}
+
+.box {
+    font-size: 24px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    border: 5px black dotted;
+    margin-top: 20px;
+    margin-right: 1em;
+    margin-bottom: 40px;
+    margin-left: 2em;
+    padding: 1em;
+}

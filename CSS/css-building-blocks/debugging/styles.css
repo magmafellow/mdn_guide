@@ -1,0 +1,23 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-color: #343434;
+    font-size: 14px;
+}
+
+.title {
+    font-size: 3.4rem;
+    color: rgb(209, 152, 45);
+    text-align: center;
+    text-decoration: wavy;
+    text-decoration-line: underline;
+    text-decoration-color: rgb(167, 167, 31);
+    border: aliceblue 1px solid;
+    border-radius: 1rem;
+    margin: 15px 30px;
+    padding: 30px;
+}
